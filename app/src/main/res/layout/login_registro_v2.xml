@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_registro_v2">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="177dp"
+        android:layout_height="183dp"
+        app:srcCompat="@drawable/logo_sin_fondo"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <Button
+        android:id="@+id/cerrar"
+        android:layout_width="50dp"
+        android:layout_height="54dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#3B8C3F"
+        android:drawableLeft="@drawable/ic_action_close"
+        app:iconTint="#3B8C3F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.908"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <Button
+        android:id="@+id/ingresar1"
+        android:layout_width="279dp"
+        android:layout_height="44dp"
+        android:backgroundTint="#3B8C3F"
+        android:backgroundTintMode="add"
+        android:drawableLeft="@drawable/ic_action_facebook"
+        android:hint="Continuar con Facebook"
+        android:textColorHint="#FFFFFF"
+        app:iconTint="#0E0808"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <Button
+        android:id="@+id/ingresar2"
+        android:layout_width="279dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="280dp"
+        android:backgroundTint="#3B8C3F"
+        android:backgroundTintMode="add"
+        android:hint="Continuar con Twitter"
+        android:textColorHint="#FFFFFF"
+        android:drawableLeft="@drawable/ic_action_twitter"
+        app:iconTint="#0E0808"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingresar1"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <Button
+        android:id="@+id/ingresar3"
+        android:layout_width="279dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#B18316"
+        android:hint="Ingresa con Email"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingresar2" />
+
+    <Button
+        android:id="@+id/ingresar4"
+        android:layout_width="176dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:background="#00FFFFFF"
+        android:hint="¿Ya tienes tu cuenta?"
+        android:textColorHint="#1E88E5"
+        android:textSize="10sp"
+        app:layout_constraintTop_toBottomOf="@+id/ingresar3"
+        tools:layout_editor_absoluteX="124dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="265dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="76dp"
+        android:text="Al registrarte, acepta los terminos de servicio y la politica de privacidad "
+        android:textColor="#039BE5"
+        android:textDirection="firstStrongRtl"
+        android:textIsSelectable="false"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@+id/ingresar4"
+        tools:layout_editor_absoluteX="80dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

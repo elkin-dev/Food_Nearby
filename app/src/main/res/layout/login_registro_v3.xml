@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/ingresar4"
+        android:layout_width="176dp"
+        android:layout_height="48dp"
+        android:background="#00FFFFFF"
+        android:hint="¿Ya tienes tu cuenta?"
+        android:textColorHint="#1E88E5"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+    <Button
+        android:id="@+id/ingresar1"
+        android:layout_width="279dp"
+        android:layout_height="44dp"
+        android:backgroundTint="#3B8C3F"
+        android:backgroundTintMode="add"
+        android:drawableLeft="@drawable/ic_action_facebook"
+        android:hint="Continuar con Facebook"
+        android:textColorHint="#FFFFFF"
+        app:iconTint="#0E0808"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="177dp"
+        android:layout_height="183dp"
+        app:srcCompat="@drawable/logo_sin_fondo"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="96dp"
+        android:layout_height="35dp"
+        android:text="Inscribete"
+        android:textColor="#040202"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="235dp"
+        android:layout_height="47dp"
+        android:text="Cree una cuenta gratuita para unirse a la comunidad Food Nearby"
+        android:textAlignment="center"
+        app:autoSizeTextType="none"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="375dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
