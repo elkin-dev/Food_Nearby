@@ -13,6 +13,20 @@
         android:theme="@style/Theme.Food_Nearby"
         tools:targetApi="31">
         <activity
+            android:name=".login_registro_v6"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".login_registro_v5"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".login_registro_v4"
             android:exported="false">
             <meta-data

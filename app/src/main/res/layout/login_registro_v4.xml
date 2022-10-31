@@ -3,7 +3,63 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".login_registro_v4">
+    android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/ingresar3"
+        android:layout_width="279dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="184dp"
+        android:backgroundTint="#fff"
+        android:hint="Ingresa con Email"
+        android:textColorHint="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <Button
+        android:id="@+id/ingresar2"
+        android:layout_width="279dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="264dp"
+        android:backgroundTint="#3B8C3F"
+        android:backgroundTintMode="add"
+        android:drawableLeft="@drawable/ic_action_twitter"
+        android:hint="Continuar con Twitter"
+        android:textColorHint="#FFFFFF"
+        app:iconTint="#0E0808"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="109dp"
+        android:layout_height="117dp"
+        app:srcCompat="@drawable/logo_sin_fondo"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="96dp"
+        android:layout_height="35dp"
+        android:text="Inscribete"
+        android:textColor="#040202"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="328dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="235dp"
+        android:layout_height="47dp"
+        android:text="Cree una cuenta gratuita para unirse a la comunidad Food Nearby"
+        android:textAlignment="center"
+        app:autoSizeTextType="none"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="375dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
