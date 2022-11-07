@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Food_Nearby</string>
+    <string name="app_name">Food Nearby</string>
+    <string name="btn_facebook_v2"></string>
+    <string name="btn_twitter_v2"></string>
+    <string name="btn_email_v2"></string>
+    <string name="btn_tieneCuenta_v2"></string>
+
+    <string name="btn_facebook_v3"></string>"
+    <string name="btn_email_v3"></string>
+    <string name="btn_inscribirse_v3"></string>
+
+    <string name="btn_twitter_v4"></string>"
+    <string name="btn_email_v4"></string>
+    <string name="btn_inscribirse_v4"></string>
+
+    <string name="regresar"></string>
+
 </resources>
