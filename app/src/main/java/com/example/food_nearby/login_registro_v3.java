@@ -24,4 +24,15 @@ public class login_registro_v3 extends AppCompatActivity {
     public void regresar(View view) {
         onBackPressed();
     }
+
+
+
+
+    /***
+     * Esto hay que ubicarlo hacia menu ojo va despues de logearse
+     * */
+    public void btn_suscribirse(View view) {
+        Intent btn_suscribirse = new Intent(this, barra_opciones_1.class);
+        startActivity(btn_suscribirse);
+    }
 }

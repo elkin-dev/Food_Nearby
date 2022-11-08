@@ -72,6 +72,7 @@
         android:layout_height="44dp"
         android:backgroundTint="#c2c2c2c2"
         android:hint="Inscribirse"
+        android:onClick="btn_suscribirse"
         android:text="@string/btn_inscribirse_v3"
         android:textColor="#040202"
         android:textColorHint="#000000"
