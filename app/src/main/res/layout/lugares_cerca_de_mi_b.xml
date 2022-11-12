@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/barra_lugares_cerca"
+        android:layout_width="413dp"
+        android:layout_height="498dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableLayout
+            android:id="@+id/tiendas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="35dp">
+
+            <TableRow
+                android:id="@+id/c1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/foto1"
+                    android:layout_width="117dp"
+                    android:layout_height="75dp"
+                    app:srcCompat="@drawable/ic_action_market_house" />
+
+                <TextView
+                    android:id="@+id/info1"
+                    android:layout_width="294dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/margen"
+                    android:text="informacion" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/foto2"
+                    android:layout_width="117dp"
+                    android:layout_height="75dp"
+                    app:srcCompat="@drawable/ic_action_market_house" />
+
+                <TextView
+                    android:id="@+id/info2"
+                    android:layout_width="216dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/margen"
+                    android:text="informacion" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/c3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/foto3"
+                    android:layout_width="117dp"
+                    android:layout_height="75dp"
+                    app:srcCompat="@drawable/ic_action_market_house" />
+
+                <TextView
+                    android:id="@+id/info3"
+                    android:layout_width="216dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/margen"
+                    android:text="informacion" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/c4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/foto4"
+                    android:layout_width="117dp"
+                    android:layout_height="75dp"
+                    app:srcCompat="@drawable/ic_action_market_house" />
+
+                <TextView
+                    android:id="@+id/info4"
+                    android:layout_width="216dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/margen"
+                    android:text="informacion" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/c5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/foto5"
+                    android:layout_width="117dp"
+                    android:layout_height="75dp"
+                    app:srcCompat="@drawable/ic_action_market_house" />
+
+                <TextView
+                    android:id="@+id/info5"
+                    android:layout_width="216dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/margen"
+                    android:text="informacion" />
+
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/guardar_barra"
+            android:layout_width="47dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="175dp"
+            android:background="#00E4D8D8"
+            app:icon="@drawable/ic_action_down_circle"
+            app:iconTint="#000000"
+            tools:ignore="TouchTargetSizeCheck" />
+    </com.google.android.material.navigation.NavigationView>
+</androidx.constraintlayout.widget.ConstraintLayout>
