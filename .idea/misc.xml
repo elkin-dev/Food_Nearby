@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/andre/Downloads/Food_Nearby/app/src/debug/res/drawable/ic_action_tuber_background.xml" value="0.3415" />
+        <entry key="..\:/Users/andre/Downloads/Food_Nearby/app/src/main/res/layout/barra_opciones_1.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/andre/Downloads/Food_Nearby/app/src/main/res/layout/categorias.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/andre/Downloads/Food_Nearby/app/src/main/res/layout/login_registro_v1.xml" value="0.3625" />
+        <entry key="..\:/Users/andre/Downloads/Food_Nearby/app/src/main/res/layout/login_registro_v2.xml" value="0.3625" />
+        <entry key="..\:/Users/andre/Downloads/Food_Nearby/app/src/main/res/layout/login_registro_v5.xml" value="0.5" />
+        <entry key="..\:/Users/andre/Downloads/Food_Nearby/app/src/main/res/layout/lugares_cerca_de_mi.xml" value="0.33" />
+        <entry key="..\:/Users/andre/Downloads/Food_Nearby/app/src/main/res/layout/lugares_cerca_de_mi_b.xml" value="0.3625" />
+        <entry key="..\:/Users/andre/Downloads/Food_Nearby/app/src/main/res/layout/mensajes.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/andre/Downloads/Food_Nearby/app/src/main/res/layout/mensajes_chats.xml" value="0.32222222222222224" />
+        <entry key="..\:/Users/andre/Downloads/Food_Nearby/app/src/main/res/layout/perfil.xml" value="0.32222222222222224" />
+      </map>
+    </option>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
