@@ -10,10 +10,12 @@ import android.widget.*;
 public class login_registro_v2 extends AppCompatActivity {
 
     @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_registro_v2);
+        setContentView(R.layout.login_registro_v3);
     }
+
 
     //Metodo para btn_facebook_v2
     public void btn_facebook(View view) {
@@ -37,13 +39,14 @@ public class login_registro_v2 extends AppCompatActivity {
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
     }
-    public void btn_tieneCuenta(View view){
+
+    public void btn_tieneCuenta(View view) {
         Intent btn_tieneCuenta = new Intent(this, login_registro_v6.class);
         startActivity(btn_tieneCuenta);
     }
 
-    public void regresar(View view){
-       // Intent regresar = new Intent(this, login_registro_v2.class);
+    public void regresar(View view) {
+        // Intent regresar = new Intent(this, login_registro_v2.class);
         onBackPressed();
     }
 }
