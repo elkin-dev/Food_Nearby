@@ -12,18 +12,16 @@
     <string name="btn_inscribirse_v4"></string>
     <string name="regresar"></string>
 
-    <string name="item">Mas</string>
+
     <string name="item1">Inicio</string>
-    <string name="item2">Buscar</string>
-    <string name="item3">Notificaciones</string>
-    <string name="item4">Mis compras</string>
-    <string name="item5">Favoritos</string>
-    <string name="item6">Ofertas</string>
-    <string name="item7">Historial</string>
-    <string name="item8">Ayuda</string>
-    <string name="item9">Mercado</string>
-    <string name="item10">Categorías</string>
-    <string name="item11">Cerrar sesión</string>
+    <string name="item2">Notificaciones</string>
+    <string name="item3">Mis compras</string>
+    <string name="item4">Ofertas</string>
+    <string name="item5">Historial</string>
+    <string name="item6">Ayuda</string>
+    <string name="item7">Categorías</string>
+    <string name="item8">Cerrar sesión</string>
+
     <string name="open">open</string>
     <string name="close">close</string>
 
