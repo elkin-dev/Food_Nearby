@@ -13,7 +13,7 @@ public class login_registro_v2 extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_registro_v3);
+        setContentView(R.layout.login_registro_v2);
     }
 
 

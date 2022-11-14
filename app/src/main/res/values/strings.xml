@@ -4,15 +4,12 @@
     <string name="btn_twitter_v2"></string>
     <string name="btn_email_v2"></string>
     <string name="btn_tieneCuenta_v2"></string>
-
     <string name="btn_facebook_v3"></string>"
     <string name="btn_email_v3"></string>
     <string name="btn_inscribirse_v3"></string>
-
     <string name="btn_twitter_v4"></string>"
     <string name="btn_email_v4"></string>
     <string name="btn_inscribirse_v4"></string>
-
     <string name="regresar"></string>
 
     <string name="item">Mas</string>
@@ -27,6 +24,8 @@
     <string name="item9">Mercado</string>
     <string name="item10">Categorías</string>
     <string name="item11">Cerrar sesión</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
 
 
 </resources>

@@ -1,63 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-
     <item
-        android:id="@+id/item"
-        android:icon="@drawable/ic_action_bars"
-        android:title="@string/item"
-        app:showAsAction="ifRoom">
-        <menu>
-            <item
-                android:id="@+id/item1"
-                android:icon="@drawable/ic_action_home"
-                android:title="@string/item1"
-                app:showAsAction="ifRoom" />
+        android:id="@+id/item1"
+        android:icon="@drawable/ic_action_home"
+        android:title="@string/item1"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item2"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/item2"
 
-            <item
-                android:id="@+id/item2"
-                android:icon="@drawable/ic_action_search"
-                android:title="@string/item2"
-
-                />
-            <item
-                android:id="@+id/item3"
-                android:icon="@drawable/ic_action_notifications"
-                android:title="@string/item3" />
-            <item
-                android:id="@+id/item4"
-                android:icon="@drawable/ic_action_shopping"
-                android:title="@string/item4" />
-            <item
-                android:id="@+id/item5"
-                android:icon="@drawable/ic_action_favorites"
-                android:title="@string/item5" />
-            <item
-                android:id="@+id/item6"
-                android:icon="@drawable/ic_action_offers"
-                android:title="@string/item6" />
-            <item
-                android:id="@+id/item7"
-                android:icon="@drawable/ic_action_record"
-                android:title="@string/item7" />
-            <item
-                android:id="@+id/item8"
-                android:icon="@drawable/ic_action_help"
-                android:title="@string/item8" />
-            <item
-                android:id="@+id/item9"
-                android:icon="@drawable/ic_action_market"
-                android:title="@string/item9" />
-            <item
-                android:id="@+id/item10"
-                android:icon="@drawable/ic_action_category"
-                android:title="@string/item10" />
-            <item
-                android:id="@+id/item11"
-                android:icon="@drawable/ic_action_signoff"
-                android:title="@string/item11" />
-
-
-        </menu>
-    </item>
+        />
+    <item
+        android:id="@+id/item3"
+        android:icon="@drawable/ic_action_notifications"
+        android:title="@string/item3" />
+    <item
+        android:id="@+id/item4"
+        android:icon="@drawable/ic_action_shopping"
+        android:title="@string/item4" />
+    <item
+        android:id="@+id/item5"
+        android:icon="@drawable/ic_action_favorites"
+        android:title="@string/item5" />
+    <item
+        android:id="@+id/item6"
+        android:icon="@drawable/ic_action_offers"
+        android:title="@string/item6" />
+    <item
+        android:id="@+id/item7"
+        android:icon="@drawable/ic_action_record"
+        android:title="@string/item7" />
+    <item
+        android:id="@+id/item8"
+        android:icon="@drawable/ic_action_help"
+        android:title="@string/item8" />
+    <item
+        android:id="@+id/item9"
+        android:icon="@drawable/ic_action_market"
+        android:title="@string/item9" />
+    <item
+        android:id="@+id/item10"
+        android:icon="@drawable/ic_action_category"
+        android:title="@string/item10" />
+    <item
+        android:id="@+id/item11"
+        android:icon="@drawable/ic_action_signoff"
+        android:title="@string/item11" />
 </menu>
+
+

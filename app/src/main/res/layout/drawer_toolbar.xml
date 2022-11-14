@@ -7,6 +7,7 @@
         android:layout_height="?attr/actionBarSize"
         android:background="#B18316"
         android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:id="@+id/toolbar"
         />
 
 
